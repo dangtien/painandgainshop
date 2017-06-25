@@ -56,7 +56,7 @@
                         </div>
                         <div class="form-group">
                             <label>Nhân viên lập</label>
-                            <h3 class="text-muted" style=" margin: 0px;margin-left: 20px;"><%= nv.getUserName()%></h3>
+                            <h3 class="text-muted" style=" margin: 0px;margin-left: 20px;"><%= nv.getHoTen()%></h3>
                         </div>
                     </div>
                     <!-- /.col -->

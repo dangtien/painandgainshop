@@ -99,6 +99,7 @@ public class UpdateTTDonDatHang extends HttpServlet {
                 db.updateTTDonDatHang(1, MaDDH);
                 // bắn ra phiếu chi
                 try {
+                    
                     String MaPC = PainAndGainService.CreatePKey("PC", new PhieuChiDAO().getLastPkey());
                     Date date = new Date();
                     SimpleDateFormat datefrmat = new SimpleDateFormat("yyyy-MM-dd");
