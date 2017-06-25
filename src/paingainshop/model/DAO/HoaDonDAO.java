@@ -41,7 +41,7 @@ public class HoaDonDAO {
     }
     public ArrayList<HoaDon> getAll() throws Exception{
         ArrayList<HoaDon> list = new ArrayList<>();
-        String sql = "select * from hoadon";
+        String sql = "select * from hoadon order by MaHD desc";
         ResultSet rs = db.getStatement().executeQuery(sql);
         while(rs.next()){
             list.add(new HoaDon(rs.getString("MaHD"), rs.getString("Ngay"), rs.getString("MaKH"), rs.getString("MaNV")));
