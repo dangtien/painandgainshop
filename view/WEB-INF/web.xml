@@ -223,6 +223,7 @@
         <url-pattern>/home.jsp/*</url-pattern>
         <url-pattern>/addproduct.jsp</url-pattern>
         <url-pattern>/hoadon</url-pattern>
+        <url-pattern>/tinhluong.jsp</url-pattern>
         <url-pattern>/chitiethoadon</url-pattern>
     </filter-mapping>
     <servlet>

@@ -84,7 +84,7 @@ public class LuuDonDatHang extends HttpServlet {
         DonDatHangDAO dhdao = new DonDatHangDAO();
         CTDonDatHangDAO ctdao = new CTDonDatHangDAO();
         if (list.isEmpty()) {
-            msg = "KhÃ´ng cÃ³ sáº£n pháº©m nÃ o trong Ä‘Æ¡n hÃ ng";
+            msg = "không có sản phẩm nào trong đơn đặt hàng";
         } else if(!list.isEmpty()) {
             try {
                 dhdao.insertDonDatHang(dh);
