@@ -317,3 +317,20 @@ function addNewNhaCungCap(){
                     alert(data);
             }});
 }
+function thanhtoan(luong,tennv){
+    $("#txtluong").val(luong);
+    $("#txttennv").val(tennv);
+}
+function createPhieuChiTraLuong(){
+    var luong =$("#txtluong").val();
+   var nv =  $("#txttennv").val();
+   var thuong = $("#txtthuong").val();
+   $.get("/nhanvien/traluong",
+   {
+       TenNV:nv,
+       Luong:luong,
+       Thuong:thuong
+   },function(data){
+       alert(data);
+   });
+}

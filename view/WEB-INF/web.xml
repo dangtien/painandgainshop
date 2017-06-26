@@ -85,6 +85,10 @@
         <servlet-name>LogOut</servlet-name>
         <servlet-class>paingainshop.controller.LogOut</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LapPhieuChiTraLuong</servlet-name>
+        <servlet-class>paingainshop.controller.nhanvien.LapPhieuChiTraLuong</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoadDSPhieuChi</servlet-name>
         <url-pattern>/loaddsphieuchi</url-pattern>
@@ -184,6 +188,10 @@
     <servlet-mapping>
         <servlet-name>LogOut</servlet-name>
         <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LapPhieuChiTraLuong</servlet-name>
+        <url-pattern>/nhanvien/traluong</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>

@@ -72,7 +72,7 @@ public class DonDatHangDAO {
     
     public ArrayList<DonDatHang> getOnDay() throws Exception {
         ArrayList<DonDatHang> lst = new ArrayList<DonDatHang>();
-        String strSQL = "select * from dondathang  where Ngay = curdate() order by MaDDH";
+        String strSQL = "select * from dondathang  where Ngay = '2017-06-25' order by MaDDH";
 
         try {
             rs = db.getStatement().executeQuery(strSQL);

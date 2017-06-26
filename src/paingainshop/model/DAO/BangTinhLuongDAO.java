@@ -22,7 +22,7 @@ public class BangTinhLuongDAO {
         strSQL += "sum(hour(bangchamcong.GioKT)-hour(bangchamcong.GioBD)) as tongGio,NhanVien.Luong, sum(bangchamcong.PhuCap) as PhuCap, ";
         strSQL += "sum(bangchamcong.TamUng) as TamUng, sum(bangchamcong.TienPhat) as TienPhat ";
         strSQL += "from bangchamcong join NhanVien on bangchamcong.MaNV= NhanVien.MaNV ";
-        strSQL += "where month(bangchamcong.Ngay)= 4 and year (bangchamcong.Ngay) =2017 ";
+        strSQL += "where month(bangchamcong.Ngay)= month(curdate()) and year (bangchamcong.Ngay) =year(curdate()) ";
         strSQL += "group by  bangchamcong.MaNV asc , year(bangchamcong.Ngay), month(bangchamcong.Ngay) "; 
         strSQL+= " order by bangchamcong.MaNV";
 

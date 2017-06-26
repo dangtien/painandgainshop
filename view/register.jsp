@@ -93,7 +93,7 @@
 				    <label class="sr-only" for="exampleInputAmount">Tiền Phạt</label>
 				    <div class="input-group">
 				      <div class="input-group-addon">--</div>
-				      <input type="text" class="form-control" id="exampleInputAmount1" placeholder="Tiền Phạt" name="TienPhat">
+				      <input type="text" class="form-control" id="exampleInputAmount1" placeholder="Tiền Phạt" name="TienPhat" value="0">
 				      <div class="input-group-addon">VND</div>
 				    </div>
 				  </div>
@@ -102,7 +102,7 @@
 				    <label class="sr-only" for="exampleInputAmount">Tiền Phụ cấp</label>
 				    <div class="input-group">
 				      <div class="input-group-addon">+</div>
-				      <input type="text" class="form-control" id="exampleInputAmount2" placeholder="Tiền Phụ cấp" name="PhuCap">
+				      <input type="text" class="form-control" id="exampleInputAmount2" placeholder="Tiền Phụ cấp" name="PhuCap" value="0">
 				      <div class="input-group-addon">VND</div>
 				    </div>
 				  </div>
@@ -110,7 +110,7 @@
 				    <label class="sr-only" for="exampleInputAmount">Tạm ứng</label>
 				    <div class="input-group">
 				      <div class="input-group-addon">--</div>
-				      <input type="text" class="form-control" id="exampleInputAmount3" placeholder="Tạm ứng" name="TamUng">
+				      <input type="text" class="form-control" id="exampleInputAmount3" placeholder="Tạm ứng" name="TamUng" value="0">
 				      <div class="input-group-addon">VND</div>
 				    </div>
 				  </div>
