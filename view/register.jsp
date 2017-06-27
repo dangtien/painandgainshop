@@ -178,8 +178,56 @@
         },
 
       events: [
-    	  
-      ],
+        {
+            title  : 'Nguyen Duy Manh',
+            start  : '2017-06-06T08:00:00',
+            end    : '2017-06-06T12:00:00',
+            backgroundColor: "#00a65a", //Success (green)
+            borderColor: "#00a65a"  
+        },
+        {
+          title: 'Vu Thi Khanh Chi',
+          start  : '2017-06-06T12:00:00',
+          end    : '2017-06-06T16:00:00',
+          backgroundColor: "#f56954", //red
+          borderColor: "#f56954" //red
+        },
+        {
+          title: 'Tran Van Huy',
+          start  : '2017-06-10T08:00:00',
+          end    : '2017-06-10T12:00:00',
+          backgroundColor: "#f39c12", //yellow
+          borderColor: "#f39c12" //yellow
+        },
+        {
+          title: 'Dang Tien Chieu',
+          start  : '2017-06-12T16:00:00',
+          end    : '2017-06-12T21:00:00',
+          backgroundColor: "#0073b7", //Blue
+          borderColor: "#0073b7" //Blue
+        },
+        {
+          title: 'Nguyen Duy Manh',
+          start  : '2017-06-16T16:00:00',
+          end    : '2017-06-16T21:00:00',
+          backgroundColor: "#00c0ef", //Info (aqua)
+          borderColor: "#00c0ef" //Info (aqua)
+        },
+        {
+          title: 'Tran Van Huy',
+          start  : '2017-06-16T08:00:00',
+          end    : '2017-06-16T12:00:00',
+          backgroundColor: "#00a65a", //Success (green)
+          borderColor: "#00a65a" //Success (green)
+        },
+        {
+          title: 'Dang Tien Chieu',
+          start  : '2017-06-23T12:00:00',
+          end    : '2017-06-23T16:00:00',
+          backgroundColor: "#3c8dbc", //Primary (light-blue)
+          borderColor: "#3c8dbc" //Primary (light-blue)
+        }
+    ]
  
     });
       //Remove event from text input
