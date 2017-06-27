@@ -83,7 +83,7 @@
                   <div class="input-group" style="width : 100%">
                     <input type="time"  class="form-control "id="timepicker2" name="GioKT" placeholder="Giờ kết thúc" required>
                     <div class="input-group-addon">
-                      <span>Giờ kết thúc</span>
+                      <span> Giờ kết thúc </span>
                    
                   </div>
                   <!-- /.input group -->
